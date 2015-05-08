@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   Dummy::Application.routes.draw do
     get "/home", to: "home#index", as: :home
+    get "/another", to: "home#another", as: :another
   end
   
   # The priority is based upon order of creation: first created -> highest priority.
